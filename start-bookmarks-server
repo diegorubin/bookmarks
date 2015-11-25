@@ -1,0 +1,2 @@
+#!/bin/bash
+java -Dserver.port=8090 -jar /packages/bookmarks-0.0.1.jar
