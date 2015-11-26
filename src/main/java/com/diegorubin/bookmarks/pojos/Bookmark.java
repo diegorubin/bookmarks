@@ -11,8 +11,15 @@ public class Bookmark {
 	@JsonView
 	private String url;
 	
+	@JsonView
+	private String title;
+	
 	public String getUrl() {
 		return this.url;
+	}
+	
+	public String getTitle() {
+		return this.title;
 	}
 
 }
