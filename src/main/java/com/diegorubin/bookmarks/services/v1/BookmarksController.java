@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.diegorubin.bookmarks.pojos.Bookmark;
+import com.diegorubin.bookmarks.models.Bookmark;
 import com.diegorubin.bookmarks.repositories.BookmarkRepository;
 
 @RestController
