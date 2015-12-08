@@ -52,7 +52,7 @@
             <plugin>
 			    <artifactId>maven-compiler-plugin</artifactId>
 			    <configuration>
-			        <useIncrementalCompilation>true</useIncrementalCompilation>
+			        <useIncrementalCompilation>false</useIncrementalCompilation>
 			    </configuration>
 			</plugin>
             <!-- Unit tests plugin, to skip runing test add -Dmaven.test.skip -->
