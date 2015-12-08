@@ -1,4 +1,13 @@
 language: java
+
+notifications:
+  email:
+    - rubin.diego@gmail.com
+
+services:
+  - mongodb
+
+script: mvn test
 after_success:
     - mvn jacoco:report coveralls:report
 
